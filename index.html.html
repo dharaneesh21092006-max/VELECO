@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="VELOCE F50 — engineered for speed. The gold standard in football boots." />
+  <title>VELOCE — F50 Speed Boot</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;600;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== Page loader ===== -->
+  <div class="loader" id="loader">
+    <span class="loader__word">VELOCE</span>
+    <div class="loader__bar"><i></i></div>
+  </div>
+
+  <!-- ===== Header ===== -->
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="#home" class="brand">
+        <span class="brand__mark">V</span>
+        <span class="brand__name">VELOCE</span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#home" class="nav__link is-active">Home</a>
+        <a href="#about" class="nav__link">About</a>
+        <a href="#services" class="nav__link">Services</a>
+        <a href="#contact" class="nav__link">Contact</a>
+        <a href="#terms" class="nav__link">Terms</a>
+        <a href="#contact" class="btn btn--sm nav__cta">Shop Now</a>
+      </nav>
+
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero" id="home">
+    <video class="hero__video" autoplay muted loop playsinline poster="assets/img/poster.jpg">
+      <source src="assets/video/shoe.mp4" type="video/mp4" />
+    </video>
+    <div class="hero__overlay"></div>
+
+    <div class="hero__content">
+      <p class="hero__eyebrow" data-reveal>NEW DROP · 2026 SPEED SERIES</p>
+      <h1 class="hero__title">
+        <span data-reveal data-delay="1">BUILT</span>
+        <span data-reveal data-delay="2">FOR <em>SPEED</em></span>
+      </h1>
+      <p class="hero__sub" data-reveal data-delay="3">
+        Meet the <strong>VELOCE F50</strong> — feather-light gold weave, blueprint traction,
+        and a strike zone tuned for the fastest players on the planet.
+      </p>
+      <div class="hero__actions" data-reveal data-delay="4">
+        <a href="#about" class="btn btn--gold">Discover the F50</a>
+        <a href="#services" class="btn btn--ghost">Our Services</a>
+      </div>
+    </div>
+
+    <a href="#about" class="hero__scroll" aria-label="Scroll down">
+      <span></span> Scroll
+    </a>
+  </section>
+
+  <!-- ===== Marquee ===== -->
+  <div class="marquee">
+    <div class="marquee__track">
+      <span>SPEED&nbsp;·&nbsp;PRECISION&nbsp;·&nbsp;CONTROL&nbsp;·&nbsp;VELOCE F50&nbsp;·&nbsp;</span>
+      <span>SPEED&nbsp;·&nbsp;PRECISION&nbsp;·&nbsp;CONTROL&nbsp;·&nbsp;VELOCE F50&nbsp;·&nbsp;</span>
+      <span>SPEED&nbsp;·&nbsp;PRECISION&nbsp;·&nbsp;CONTROL&nbsp;·&nbsp;VELOCE F50&nbsp;·&nbsp;</span>
+    </div>
+  </div>
+
+  <!-- ===== About ===== -->
+  <section class="about" id="about">
+    <div class="about__media" data-reveal>
+      <img src="assets/img/frame1.jpg" alt="VELOCE F50 gold football boot" loading="lazy" />
+      <span class="about__tag">F50 · GOLD EDITION</span>
+    </div>
+
+    <div class="about__text">
+      <p class="section__kicker" data-reveal>About the boot</p>
+      <h2 class="section__title" data-reveal data-delay="1">
+        A <em>second skin</em> tuned for the final third.
+      </h2>
+      <p data-reveal data-delay="2">
+        Every stitch of the VELOCE F50 is engineered to disappear on your foot and explode
+        on the pitch. A gold-weave upper wraps the foot like a glove, while the blueprint
+        outsole digs in for instant acceleration.
+      </p>
+
+      <div class="stats">
+        <div class="stat" data-reveal data-delay="2">
+          <strong>148<span>g</span></strong>
+          <small>Featherweight upper</small>
+        </div>
+        <div class="stat" data-reveal data-delay="3">
+          <strong>0.3<span>s</span></strong>
+          <small>Faster first step</small>
+        </div>
+        <div class="stat" data-reveal data-delay="4">
+          <strong>12</strong>
+          <small>Precision studs</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Showcase split ===== -->
+  <section class="showcase">
+    <div class="showcase__text">
+      <p class="section__kicker" data-reveal>The detail</p>
+      <h2 class="section__title" data-reveal data-delay="1">Blueprint stripes. <em>Gold</em> finish.</h2>
+      <p data-reveal data-delay="2">
+        Sky-blue energy lines cut through a champagne-gold body — a look that's
+        impossible to miss under the floodlights. Designed to be seen, built to be fast.
+      </p>
+      <ul class="ticks">
+        <li data-reveal data-delay="2">Microfiber gold-weave upper</li>
+        <li data-reveal data-delay="3">Energy-return Pebax® plate</li>
+        <li data-reveal data-delay="4">Locked-in heel cradle</li>
+      </ul>
+    </div>
+    <div class="showcase__media" data-reveal data-delay="2">
+      <img src="assets/img/frame2.jpg" alt="VELOCE F50 boot detail" loading="lazy" />
+    </div>
+  </section>
+
+  <!-- ===== Services ===== -->
+  <section class="services" id="services">
+    <div class="services__head">
+      <p class="section__kicker" data-reveal>What we offer</p>
+      <h2 class="section__title" data-reveal data-delay="1">Services that keep you <em>ahead</em>.</h2>
+    </div>
+
+    <div class="cards">
+      <article class="card" data-reveal>
+        <div class="card__icon">⚡</div>
+        <h3>Custom Speed Fit</h3>
+        <p>In-store 3D foot scans dial the F50 to your exact stride and arch.</p>
+      </article>
+      <article class="card" data-reveal data-delay="1">
+        <div class="card__icon">🚚</div>
+        <h3>Free 48h Delivery</h3>
+        <p>Order today, lace up in two days — free shipping on every pair.</p>
+      </article>
+      <article class="card" data-reveal data-delay="2">
+        <div class="card__icon">♻️</div>
+        <h3>Lifetime Re-Stud</h3>
+        <p>Worn studs? We re-fit fresh traction for the life of the boot.</p>
+      </article>
+      <article class="card" data-reveal data-delay="3">
+        <div class="card__icon">🛡️</div>
+        <h3>2-Year Warranty</h3>
+        <p>Full cover on craftsmanship so you can play with total confidence.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== Gallery ===== -->
+  <section class="gallery">
+    <div class="gallery__item" data-reveal>
+      <img src="assets/img/shot2.jpg" alt="F50 side profile" loading="lazy" />
+    </div>
+    <div class="gallery__item" data-reveal data-delay="1">
+      <img src="assets/img/shot1.jpg" alt="F50 dynamic angle" loading="lazy" />
+    </div>
+    <div class="gallery__item gallery__item--wide" data-reveal data-delay="2">
+      <img src="assets/img/poster.jpg" alt="F50 hero shot" loading="lazy" />
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section class="contact" id="contact">
+    <div class="contact__info">
+      <p class="section__kicker">Get in touch</p>
+      <h2 class="section__title">Ready to <em>move faster</em>?</h2>
+      <p>Drop us a line about the VELOCE F50, custom fittings, or team orders. Our crew replies within a day.</p>
+
+      <ul class="contact__list">
+        <li><span>Email</span><a href="mailto:hello@veloce.com">hello@veloce.com</a></li>
+        <li><span>Phone</span><a href="tel:+18005835623">+1 (800) 583-5623</a></li>
+        <li><span>Store</span>221 Striker Avenue, Speed City, CA 90007</li>
+        <li><span>Hours</span>Mon–Sat · 9:00 – 20:00</li>
+      </ul>
+    </div>
+
+    <form class="contact__form" id="contactForm" novalidate>
+      <div class="field">
+        <input type="text" id="name" name="name" placeholder=" " required />
+        <label for="name">Your name</label>
+      </div>
+      <div class="field">
+        <input type="email" id="email" name="email" placeholder=" " required />
+        <label for="email">Email address</label>
+      </div>
+      <div class="field">
+        <textarea id="message" name="message" rows="4" placeholder=" " required></textarea>
+        <label for="message">Message</label>
+      </div>
+      <button type="submit" class="btn btn--gold btn--full">Send message</button>
+      <p class="form__note" id="formNote" hidden>Thanks! We'll be in touch shortly.</p>
+    </form>
+  </section>
+
+  <!-- ===== Terms ===== -->
+  <section class="terms" id="terms">
+    <p class="section__kicker">Terms &amp; conditions</p>
+    <h2 class="section__title">The fine print.</h2>
+    <div class="terms__grid">
+      <div>
+        <h3>Orders &amp; Pricing</h3>
+        <p>All prices are listed in USD and include applicable taxes. We reserve the right to update pricing and product availability at any time without prior notice.</p>
+      </div>
+      <div>
+        <h3>Shipping &amp; Returns</h3>
+        <p>Free 48-hour delivery applies to in-stock items. Unworn boots may be returned within 30 days of delivery for a full refund of the purchase price.</p>
+      </div>
+      <div>
+        <h3>Warranty</h3>
+        <p>The VELOCE F50 carries a 2-year warranty against manufacturing defects. Normal wear, misuse, and modifications are not covered.</p>
+      </div>
+      <div>
+        <h3>Privacy</h3>
+        <p>Your details are used solely to process orders and respond to enquiries. We never sell your data to third parties. Full policy available on request.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <span class="brand__name">VELOCE</span>
+        <p>Engineered for the players who never slow down.</p>
+        <div class="socials">
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="X">X</a>
+          <a href="#" aria-label="YouTube">YT</a>
+          <a href="#" aria-label="TikTok">TT</a>
+        </div>
+      </div>
+
+      <nav class="footer__nav">
+        <h4>Explore</h4>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#terms">Terms</a>
+      </nav>
+
+      <div class="footer__contact" id="footer-contact">
+        <h4>Contact</h4>
+        <a href="mailto:hello@veloce.com">hello@veloce.com</a>
+        <a href="tel:+18005835623">+1 (800) 583-5623</a>
+        <p>221 Striker Avenue,<br />Speed City, CA 90007</p>
+        <p>Mon–Sat · 9:00 – 20:00</p>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p>© <span id="year"></span> VELOCE Footwear. All rights reserved.</p>
+      <p>Made for speed.</p>
+    </div>
+  </footer>
+
+  <a href="#home" class="to-top" id="toTop" aria-label="Back to top">↑</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
